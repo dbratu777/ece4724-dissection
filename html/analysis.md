@@ -10,13 +10,17 @@
 alt="LCD Common Plane Timing Diagram"
 title="LCD Common Plane Timing Diagram">
 
+The battery and solar cells serve as primary power sources for the calculator; the keyboard and LCD are I/O devices with all logic required to read from and write to them handled by the microcontroller.
+
+The battery is portrayed as providing and receiving power, but it is important to note that the "received" power from the solar cell is actually blocked as discussed in next section.
+
 ## Circuit Schematics
 
 <img src="../images/diagrams/circuit.jpg" width="" height="360"
 alt="LCD Common Plane Timing Diagram"
 title="LCD Common Plane Timing Diagram">
 
-The two schottky diodes, with low voltage dropouts of 0.15V, prevent the backflow of voltage from the solar cell across the MCU into the battery and vice versa.
+The two Schottky diodes, with low voltage dropouts of 0.15V, prevent the backflow of voltage from the solar cell across the MCU into the battery and vice versa. As such, the solar cells are not capable of recharging the battery and only extend its lifetime indirectly by providing an alternative power source to drive the microcontroller.
 
 ## Electronic Characteristics
 
@@ -25,29 +29,71 @@ The device is primarily powered by a 1.5V alkaline button cell battery, the LR11
 | Component | Supply Voltage (V) | Operating Voltage (V) | Current Draw (mA)| 
 | - | - | - | - |
 | MCU | 1.0 | 0.96 | N/A |
-| C.P. LCD Pin | 1 | 0 (DC) | 0.1 |
-| Seg. LCD Pin | 1 | 0 (DC) | 0.01 | 
+| C.P. LCD Pin | 1.0 | 0 (DC) | 0.1 |
+| Seg. LCD Pin | 1.0 | 0 (DC) | 0.01 | 
 | MCU | 1.5 | 1.44 | N/A |
 | C.P. LCD Pin | 1.5 | 0 (DC) | 0.6 |
 | Seg. LCD Pin | 1.5 | 0 (DC) | 0.07 |
 | MCU | 3.0 | 2.89 | N/A |
-| C.P. LCD Pin | 3 | 0 (DC) | 2.7 |
-| Seg. LCD Pin | 3 | 0 (DC) | 0.3 |
+| C.P. LCD Pin | 3.0 | 0 (DC) | 2.7 |
+| Seg. LCD Pin | 3 .0| 0 (DC) | 0.3 |
 
 <br>
 
-Each of LCD pins transmit AC signals with an equivalent DC voltage of 0V to prevent degradation of the LCD crystals. The MCU has no load between either of the power sources and their respective "in" pins; there is likely an internal resistance, but, as it stands, there is no reasonable way to measure the total current draw of the MCU. As such, the battery lifetime provided below is based on the maximum current draw of the common plane pins for the LCD at the normal supply voltage of the battery of 1.5V.  
+It should be noted that the current draw of the LCD pins is largely negligible, as LCDs behave like capacitive loads rather than resistive ones. Current does not flow continuously through the segments to determine whether they are on or off. Instead, the appearance of each segment is controlled by the electric field across it, which is characterized by the RMS voltage between the segment and its respective common plane with larger RMS voltages corresponding to darker segments.
+
+The small currents that are observed on each pin appear as brief spikes during voltage transitions (the jumps between peaks and troughs), caused by the charging and discharging of the segment’s capacitance. These are not sustained currents; instead, they are a byproduct of the LCD’s capacitive nature.
+
+Sample images showing the LCD behavior at each tested voltage level have been provided below.
+
+### LCD Characteristics
+
+<img src="../images/analysis/1.jpg" width="" height="240"
+alt="LCD with Supply Voltage 1.0V"
+title="LCD with Supply Voltage 1.0V">
+
+**Figure 1: LCD with Supply Voltage 1.0V**
+
+Extremely faint, but the segments to display 1 are still just barely visible.
+
+<img src="../images/analysis/2.jpg" width="" height="240"
+alt="LCD with Supply Voltage 1.5V"
+title="LCD with Supply Voltage 1.5V">
+
+**Figure 2: LCD with Supply Voltage 1.5V**
+
+Normal level of visibility.
+
+<img src="../images/analysis/3.jpg" width="" height="240"
+alt="LCD with Supply Voltage 3.0V"
+title="LCD with Supply Voltage 3.0V">
+
+**Figure 3: LCD with Supply Voltage 3.0V**
+
+Looking head on, it is nearly impossible to determine which segments were intended to be displayed.
+
+<img src="../images/analysis/4.jpg" width="" height="240"
+alt="LCD with Supply Voltage 3.0V (Tilted)"
+title="LCD with Supply Voltage 3.0V (Tilted)">
+
+**Figure 4: LCD with Supply Voltage 3.0V (Tilted)**
+
+At a slight angle, the segments intended to be displayed are slightly darkened.
+
+Regardless of the supply voltage level, each of the LCD pins transmits AC signals with a net DC voltage of 0V to prevent degradation of the liquid crystal material. The microcontroller (MCU) has no measurable load between the power source and its corresponding input pins. While there is likely some internal resistance, there is no practical way to determine the MCU’s total current draw. Therefore, the estimated battery lifetime provided below is based solely on the measured current draw of the LCD’s common plane pins, taken at the nominal supply voltage of 1.5V.
 
 **50 mAh / 0.6 mA = 83.3 hours**
 
 **80 mAh / 0.6 mA = 133.3 hours**
 
-The total battery usage is also offset by the solar cells when sufficient light is present, so the actual battery lifetime is likely significantly longer. These numbers can simply be used to represent the potential battery lifetime in absolute absence of light.  
+The total battery usage is also offset by the solar cells when sufficient light is present, so the actual battery lifetime is likely significantly longer. These numbers can simply be used to represent the potential battery lifetime in absolute absence of light.
 
 
 ## Bill of Materials
 
-Many of these components are now obsolete or are marked with manufacturer-specific codes, such as the diodes. As such, best-fit components have been selected, based on the measured ratings, appearance, and functionality of each component, to estimate the approximate bill of materials. Where possible, bulk prices were used for components to replicate manufacturing practices.
+The cost of the microcontroller is not directly discussed in this section as it is obscured and likely CASIO propriety; however, it is worth noting that the MCU is a chip-on-board application-specific integrated-chip (ASIC) obscured by black epoxy. This method of directly mounting the die to the board and coating it with epoxy is done to minimize manufacturing costs.
+
+Many of the components used in the device are now obsolete or are marked with manufacturer-specific codes, such as the diodes, LCD, and solar cells. As such, best-fit components have been selected, based on the measured ratings, appearance, and functionality of each component, to estimate the approximate bill of materials in the following sections. Where possible, bulk prices were used for components to replicate manufacturing practices.
 
 ### Electronic Components
 
@@ -70,12 +116,13 @@ Provided the above table, the approximate cost to produce a single device, purel
 | Plastic | N/A | 
 | Rubber | N/A | 
 | Screws | -002MPF | Kanebridge | 2x | $1,100.00 | 10,000 | $0.11000 | $0.22000 [\[8\]](#8-digi-key-electronics-digikey--002mpf-digikeycom)
+| | | | | | | Total Cost <br> Per Device | $?.?? 
 
 PCB printing and construction-related costs were left out of the bill of materials for simplicity sake. 
 
 <br>
 
-**Total Cost: **
+**Total Cost: $?.??**
 
 ## 
  

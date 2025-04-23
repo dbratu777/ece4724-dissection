@@ -82,7 +82,7 @@ Front-Facing Circuitry Removed from Shell; Top Primary PCB was Held in Place Sim
 alt="Casio SL-100L Shell and Removed Back-Facing Circuitry"
 title="Casio SL-100L Shell and Removed Back-Facing Circuitry">
 
-Back-Facing Circuitry Removed from Shell; Flex Cables Bridge the PCBs and LCD; PCB Cables are Protected by a Thin Metal Sheet to Prevent Damage by the Hinge
+Back-Facing Circuitry Removed from Shell; Flex Cables Bridge the PCBs and LCD; Flex Cables are Protected by a Thin Metal Sheet to Prevent Damage by the Hinge
 
 <img src="../images/calculator/15.jpg" width="" height="240"
 alt="Casio SL-100L Solar Cell Back"
@@ -100,7 +100,7 @@ Solar Cell (Front)
 alt="Casio SL-100L Primary PCB Back"
 title="Casio SL-100L Primary PCB Back">
 
-Primary PCB (Back); Re-Soldered Solar Cell
+Primary PCB (Back); Chip-on-Board (COB) Application-Specific Integrated-Circuit (ASIC) Underneath Black Epoxy Blob
 
 <img src="../images/calculator/18.jpg" width="" height="240"
 alt="Casio SL-100L Keypad PCB Back"
