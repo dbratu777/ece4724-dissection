@@ -40,7 +40,7 @@ The device is primarily powered by a 1.5V alkaline button cell battery, the LR11
 
 <br>
 
-It should be noted that the current draw of the LCD pins is largely negligible, as LCDs behave like capacitive loads rather than resistive ones. Current does not flow continuously through the segments to determine whether they are on or off. Instead, the appearance of each segment is controlled by the electric field across it, which is characterized by the RMS voltage between the segment and its respective common plane with larger RMS voltages corresponding to darker segments.
+It should be noted that the current draw of the LCD pins is largely negligible, as LCDs behave like capacitive loads rather than resistive ones. Current does not flow continuously through the segments to determine whether they are on or off. Instead, the appearance of each segment is determined by the voltage difference (or potential) between the segment and its common plane; larger voltage differences correspond to darker, more visible segments.
 
 The small currents that are observed on each pin appear as brief spikes during voltage transitions (the jumps between peaks and troughs), caused by the charging and discharging of the segment’s capacitance. These are not sustained currents; instead, they are a byproduct of the LCD’s capacitive nature.
 
