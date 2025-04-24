@@ -183,4 +183,5 @@ https://www.avient.com/products/thermoplastic-elastomers/tpe-knowledge-center/be
 
 #### \[12\] CASIO, “SL-100L Pocket Calculator,” casio.com.
 
-https://www.casio.com/us/basic-calculators/product.SL-100L/ (accessed Apr. 21, 2025)
+https://www.casio.com/us/basic-calculators/product.SL-100L/ (accessed Apr. 21, 2025).
+
