@@ -89,7 +89,7 @@ The SL-100L is manufactured and sold by CASIO.
 
 <br>
 
-As a mass-produced consumer electronic device, the SL-100L has several similar products, including knock-offs and off-brand versions, some of which are listed below
+As a mass-produced consumer electronic device, there are products similar to the SL-100L in both functionality and design, including knock-offs and off-brand versions, some of which are listed below.
 
 #### Sharp EL-243SB
 
@@ -144,7 +144,7 @@ title="Maizoon JS-732A Calculator">
 
 The Maizoon calculator is especially interesting as it is the only off-brand calculator shown in this section; this model of calculator is also listed online as the JOINUS JS-732A/CT-8855V, the Neel CT-8855V, and the CITHZEN CT-8855V. It has a very tactile appearance and claims to be powered off AAA batteries in addition to solar. It also boasts comparison operators (greater than and less than) as part of its specialty functionality.
 
-While some of the other devices may provide unique features, none of them match the sleek form factor, tasteful appearance, or accessible presentation of CASIO's SL-100L; the [Canon LS-555H](#canon-ls-555h) comes close, but lacks the refinement required to justify its higher price point.
+While some of the other devices may provide unique features, none of them match the sleek form factor or tasteful appearance of CASIO's SL-100L; the [Canon LS-555H](#canon-ls-555h) comes close, but lacks the refinement required to justify its higher price point.
 
 ##
 
