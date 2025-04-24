@@ -4,7 +4,9 @@
 
 ##
 
-## Photos
+## Dissection
+
+### Photos
 
 <img src="../images/calculator/1.webp" width="" height="240"
 alt="CASIO SL-100L OEM Packaging Front"
@@ -238,7 +240,7 @@ title="CASIO SL-100L Shell Screws">
 alt="CASIO SL-100L Shell Screws Alt. View"
 title="CASIO SL-100L Shell Screws Alt. View">
 
-**Figure 27: Alternative View: Phillips Head Screws from Shell**
+**Figure 27: Alternative View – Phillips Head Screws from Shell**
 
 ##
 

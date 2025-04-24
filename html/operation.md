@@ -10,6 +10,8 @@
 alt="Calculator Use-Case Diagram"
 title="Calculator Use-Case Diagram">
 
+**Figure 1: Calculator Use-Case Diagram**
+
 The keyboard serves as the primary point of user interaction with the device; it provides a number of potential actions or operations to the user depending on the current state. As shown in the above figure, green states represent actions available to the user at any point; although, many of these states may not produce the desired behavior unless specific conditions are met, such as the memory operations. Yellow states require the preceding states or conditions to have occurred before they are available to the user, e.g. an operand must be entered before selecting an operand. Red states are terminal states managed and determined by the device's internal logic.
 
 ## Timing Diagrams

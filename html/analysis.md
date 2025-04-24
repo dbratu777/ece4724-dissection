@@ -7,8 +7,10 @@
 ## High-Level Block Diagram
 
 <img src="../images/diagrams/high-level.jpg" width="" height="360"
-alt="LCD Common Plane Timing Diagram"
-title="LCD Common Plane Timing Diagram">
+alt="Calculator Block Diagram"
+title="Calculator Block Diagram">
+
+**Figure 1: Calculator Block Diagram**
 
 The battery and solar cells serve as primary power sources for the calculator; the keyboard and LCD are I/O devices with all logic required to read from and write to them handled by the microcontroller.
 
@@ -17,8 +19,10 @@ The battery is portrayed as providing and receiving power, but it is important t
 ## Circuit Schematics
 
 <img src="../images/diagrams/circuit.jpg" width="" height="360"
-alt="LCD Common Plane Timing Diagram"
-title="LCD Common Plane Timing Diagram">
+alt="Calculator Circuit Schematic"
+title="Calculator Circuit Schematic">
+
+**Figure 2: Calculator Circuit Schematic**
 
 The two Schottky diodes, with low voltage dropouts of 0.15V, prevent the backflow of voltage from the solar cell across the MCU into the battery and vice versa. As such, the solar cells are not capable of recharging the battery and only extend its lifetime indirectly by providing an alternative power source to drive the microcontroller.
 
@@ -52,7 +56,7 @@ Sample images showing the LCD behavior at each tested voltage level have been pr
 alt="LCD with Supply Voltage 1.0V"
 title="LCD with Supply Voltage 1.0V">
 
-**Figure 1: LCD with Supply Voltage 1.0V**
+**Figure 3: LCD with Supply Voltage 1.0V**
 
 Extremely faint, but the segments to display 1 are still just barely visible.
 
@@ -60,7 +64,7 @@ Extremely faint, but the segments to display 1 are still just barely visible.
 alt="LCD with Supply Voltage 1.5V"
 title="LCD with Supply Voltage 1.5V">
 
-**Figure 2: LCD with Supply Voltage 1.5V**
+**Figure 4: LCD with Supply Voltage 1.5V**
 
 Normal level of visibility.
 
@@ -68,7 +72,7 @@ Normal level of visibility.
 alt="LCD with Supply Voltage 3.0V"
 title="LCD with Supply Voltage 3.0V">
 
-**Figure 3: LCD with Supply Voltage 3.0V**
+**Figure 5: LCD with Supply Voltage 3.0V**
 
 Looking head on, it is nearly impossible to determine which segments were intended to be displayed.
 
@@ -76,7 +80,7 @@ Looking head on, it is nearly impossible to determine which segments were intend
 alt="LCD with Supply Voltage 3.0V (Tilted)"
 title="LCD with Supply Voltage 3.0V (Tilted)">
 
-**Figure 4: LCD with Supply Voltage 3.0V (Tilted)**
+**Figure 6: LCD with Supply Voltage 3.0V (Tilted)**
 
 At a slight angle, the segments intended to be displayed are slightly darkened.
 

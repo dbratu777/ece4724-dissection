@@ -12,31 +12,43 @@
 alt="CASIO SL-100L Primary PCB — Post Dissection (Un-Assembled)"
 title="CASIO SL-100L Primary PCB — Post Dissection (Un-Assembled)">
 
-Primary PCB with C3, C4, and D2 Removed for Rating Measurements; All Traces to LCD and Battery were Scratched to Remove Protective Layering for Measurements and to Acquire Timing Diagrams; Select Traces to Keypad and Solar Cells were Scratched for the Same Purpose
+**Figure 1: Primary PCB with C3, C4, and D2 Removed for Rating Measurements**
+
+All traces to the LCD and battery were scratched to remove their protective layering, which allowed for measurements and timing diagrams to be acquired. Select traces to the keypad and solar cells were also scratched for the same purpose.
+
+##
 
 <img src="../images/reassembly/2.jpg" width="" height="240"
 alt="CASIO SL-100L Unique Capacitors and Diode"
 title="CASIO SL-100L Unique Capacitors and Diode">
 
-C3, C4, and D2 (Top to Bottom)
+**Figure 2: C3, C4, and D2 (Top to Bottom)**
+
+##
 
 <img src="../images/reassembly/3.jpg" width="" height="240"
 alt="CASIO SL-100L Primary PCB — Post Dissection (Reassembled)"
 title="CASIO SL-100L Primary PCB — Post Dissection (Reassembled)">
 
-Primary PCB with All Components Reattached and Solder Reflowed
+**Figure 3: Primary PCB with All Components Reattached and Solder Reflowed**
+
+##
 
 <img src="../images/reassembly/4.jpg" width="" height="240"
 alt="CASIO SL-100L Folding-Shell Side — Post Dissection"
 title="CASIO SL-100L Folding-Shell Side — Post Dissection">
 
-Calculator's Shell Case; Plastic Tabs on the Top of the Case were Damaged During Disassembly and No Longer Latch
+**Figure 4: Calculator's Damaged Shell**
+
+Some of the plastic tabs on the top of the shell were damaged during the disassembly process and are now unable to properly latch.
+
+##
 
 <img src="../images/reassembly/5.jpg" width="" height="240"
 alt="CASIO SL-100L Folding-Shell Top — Post Dissection"
 title="CASIO SL-100L Folding-Shell Top — Post Dissection">
 
-Calculator's Shell Case; Damaged
+**Figure 5: Alternative View – Calculator's Damaged Shell**
 
 ##
 
