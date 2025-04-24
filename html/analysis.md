@@ -126,7 +126,7 @@ Thermoplastic elastomers (TPEs) were chosen as the base material for the keyboar
 
 **Total Cost: $5.96**
 
-The actual calculator retails direct from the manufacturer for $7.41 [\[12\]](#12-casio-sl-100l-pocket-calculator-casiocom). It can be assumed that Casio isn't settling for a mere $1.45 in profit (not including manufacturing, packaging, and processing costs); instead, they likely have numerous manufacturing contracts and first-party suppliers to reduce costs far below what has been estimated.
+The actual calculator retails direct from the manufacturer for $7.41 [\[12\]](#12-casio-sl-100l-pocket-calculator-casiocom). It can be assumed that CASIO isn't settling for a mere $1.45 in profit (not including manufacturing, packaging, and processing costs); instead, they likely have numerous manufacturing contracts and first-party suppliers to reduce costs far below what has been estimated.
 
 ## 
  
@@ -181,6 +181,6 @@ https://www.digikey.com/en/products/detail/fix-supply/002MPF/21634439?s=N4IgjCBc
 
 https://www.avient.com/products/thermoplastic-elastomers/tpe-knowledge-center/beginners-guide#difference (accessed Apr. 21, 2025).
 
-#### \[12\] Casio, “SL-100L Pocket Calculator,” casio.com.
+#### \[12\] CASIO, “SL-100L Pocket Calculator,” casio.com.
 
 https://www.casio.com/us/basic-calculators/product.SL-100L/ (accessed Apr. 21, 2025)
