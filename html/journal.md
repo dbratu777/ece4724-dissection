@@ -70,7 +70,7 @@ Keypad PCB Removed from Shell with Labeled Circuit Pads
 alt="Casio SL-100L Keypad"
 title="Casio SL-100L Keypad">
 
-Rubber Keypad Removed from Shell
+Silicone Keypad Removed from Shell
 
 <img src="../images/calculator/13.jpg" width="" height="240"
 alt="Casio SL-100L Shell and Removed Front-Facing Circuitry"
@@ -118,7 +118,7 @@ Primary PCB (Front) with LCD and Solar Cell
 alt="Casio SL-100L Keypad PCB Front"
 title="Casio SL-100L Keypad PCB Front">
 
-Multiplex-Read Matrix Keypad PCB (Front); the Pads are Carbon-Coated in a Zig-Zag Pattern to Short with the Carbon Backs of the Rubber Keypad
+Multiplex-Read Matrix Keypad PCB (Front); the Pads are Carbon-Coated in a Zig-Zag Pattern to Short with the Carbon Backs of the Silicone Keypad
 
 <img src="../images/calculator/21.jpg" width="" height="240"
 alt="Casio SL-100L Inside Empty Top Shell"
@@ -127,10 +127,10 @@ title="Casio SL-100L Inside Empty Top Shell">
 Empty Shell (Top)
 
 <img src="../images/calculator/22.jpg" width="" height="240"
-alt="Casio SL-100L Inside Bottom Shell with Rubber Keypad"
-title="Casio SL-100L Inside Bottom Shell with Rubber Keypad">
+alt="Casio SL-100L Inside Bottom Shell with Silicone Keypad"
+title="Casio SL-100L Inside Bottom Shell with Silicone Keypad">
 
-Empty Shell (Bottom with Rubber Keypad)
+Empty Shell (Bottom with Silicone Keypad)
 
 <img src="../images/calculator/23.jpg" width="" height="240"
 alt="Casio SL-100L Inside Empty Bottom Shell"
@@ -139,16 +139,16 @@ title="Casio SL-100L Inside Empty Bottom Shell">
 Empty Shell (Bottom)
 
 <img src="../images/calculator/24.jpg" width="" height="240"
-alt="Casio SL-100L Rubber Keypad Front"
-title="Casio SL-100L Rubber Keypad Front">
+alt="Casio SL-100L Silicone Keypad Front"
+title="Casio SL-100L Silicone Keypad Front">
 
-Rubber Keypad (Front)
+Silicone Keypad (Front)
 
 <img src="../images/calculator/25.jpg" width="" height="240"
-alt="Casio SL-100L Rubber Keypad Back"
-title="Casio SL-100L Rubber Keypad Back">
+alt="Casio SL-100L Silicone Keypad Back"
+title="Casio SL-100L Silicone Keypad Back">
 
-Rubber Keypad (Back); Carbon Coated Key-backs
+Silicone Keypad (Back); Carbon Coated Key-backs
 
 <img src="../images/calculator/26.jpg" width="" height="240"
 alt="Casio SL-100L LR1130 1.5V Battery"

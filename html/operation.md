@@ -10,9 +10,11 @@
 alt="Calculator Use-Case Diagram"
 title="Calculator Use-Case Diagram">
 
-The keyboard serves as the primary point of user interaction with the device; it provides a number of potential actions or operations to the user depending on the current state. As shown in the above figure, green states represent actions available the user at any point; although, many of them may not produce the desired behavior unless specific conditions are met, such as the memory operations. Yellow states require the preceding states or conditions to have occurred before they are available to the user. Red states are terminal states managed and determined by the device's internal logic.
+The keyboard serves as the primary point of user interaction with the device; it provides a number of potential actions or operations to the user depending on the current state. As shown in the above figure, green states represent actions available to the user at any point; although, many of these states may not produce the desired behavior unless specific conditions are met, such as the memory operations. Yellow states require the preceding states or conditions to have occurred before they are available to the user, e.g. an operand must be entered before selecting an operand. Red states are terminal states managed and determined by the device's internal logic.
 
 ## Timing Diagrams
+
+The following timing diagrams were taken in moderately lit conditions; the battery was removed and the solar cell provided a supply voltage of ~1.3V DC. The periods and frequencies of the signals are not dependant on the  supply voltage; however, the amplitude, or peak-to-peak voltages, of the signals are dependant on the supply voltage (this is discussed further in the Electronic Characteristics section of the [Product Analysis](../html/analysis.md)).
 
 <img src="../images/timing/1.jpg" width="360" height="240"
 alt="LCD Common Plane Timing Diagram"
@@ -24,28 +26,30 @@ title="LCD Common Plane Timing Diagram">
 *Amplitude: 2.52V*
 
 <img src="../images/timing/2.jpg" width="360" height="240"
-alt="LCD Non-Numerical Segment Timing Diagram"
-title="LCD Non-Numerical Segment Timing Diagram">
+alt="LCD Segment Timing Diagram 1"
+title="LCD Segment Timing Diagram 1">
 
-**Timing Diagram 2: LCD Bias Pin Reading**
+**Timing Diagram 2: LCD Segment Pin Reading 1**
 
 *Period: 7.30ms*  
 *Amplitude: 2.6V*
 
 <img src="../images/timing/3.jpg" width="360" height="240"
-alt="LCD Numerical Segment Timing Diagram"
-title="LCD Numerical Segment Timing Diagram">
+alt="LCD Segment Timing Diagram 2"
+title="LCD Segment Timing Diagram 2">
 
-**Timing Diagram 3: LCD Numerical Segment Pin Reading**
+**Timing Diagram 3: LCD Segment Pin Reading 2**
 
 *Period: 21.90ms*  
 *Amplitude: 2.84V*  
 
-Based on the timing diagrams and pin analysis, it was concluded that the LCD is multiplexed, or dynamic, and operates using a 1/3 bias driving scheme, as illustrated in Timing Diagram 2. The bias reference signal has a period that is one-third that of the common plane and segment signals (Timing Diagram 1 and 3 respectively), and these signals exhibit three distinct voltage levels: ground (0V), common plane peak/trough (±1.26V), and segment peak/trough (±1.42V). The bias reference signal oscillates within this voltage range, further supporting its role in biasing the LCD.
+Analysis of the 27-pin interface revealed the presence of 3 common plane pins and 24 segment pins, which together support all 72 segments (3 * 24) on the display (made up of 8 seven-segment digits, 8 decimal points, 5 commas, 1 negative sign, 1 exponential indicator, and 1 memory indicator).
 
-Additionally, analysis of the 27-pin interface revealed the presence of 3 common plane pins and 23 segment pins, which together support all 69 segments on the display (made up of 8 seven-segment digits, 8 decimal points, 2 commas, 1 negative sign, and 2 memory operation indicators). This leaves a single unaccounted-for pin, which (given the absence of an integrated driver IC on the LCD) is most reasonably attributed to a bias reference input.
+The timing diagrams reveal that the LCD is driven using 4 voltage levels: ±1.25V, ±1.3V, ±1.42, and GND (0V). Based on the these voltage levels, the timing diagrams, and earlier pin analysis, it was concluded that the LCD is multiplexed, or dynamic, and operates using a 1/3 bias driving scheme.
 
-Interestingly, regardless of the number of digits input or the type of digit (0-9), all numerical segment pins seemingly produce the same AC signals; there was no difference in voltage amplitude, signal shape, or RMS values within the pin grouping. This behavior is expected because multiplexed LCDs use time-division control, where all segment pins are driven with similar waveforms; the relative timing between segment and common signals is what determines the display output not the shape or amplitude of a single pin’s waveform. Regardless, this makes it difficult to determine exactly which pins line up with which segments.
+***Bias = 1 / (# Voltage Levels - 1)***
+
+Interestingly, regardless of the number of digits input or the type of digit (0-9), all numerical segment pins seemingly produce one of two AC signals; there was no difference in voltage amplitude, signal shape, or RMS values within these signal types. However, this behavior may be explained through multiplexed LCDs use of time-division control where all segment pins are driven with similar waveforms; in other words, the relative timing between segment and common signals is what determines the display output and not necessarily the shape or amplitude of a single pin’s waveform. Regardless, this makes it difficult to determine exactly which pins line up with which segments.
 
 <br>
 
