@@ -244,7 +244,7 @@ title="CASIO SL-100L Shell Screws Alt. View">
 
 ##
 
-<br> Prev: ◄— [Product Market](../html/market.md) ◄—  
-Next: —► [Product Operation](../html/operation.md) —►
+<br> Prev: ◄— [Product Market](../markdown/market.md) ◄—  
+Next: —► [Product Operation](../markdown/operation.md) —►
 
 ##

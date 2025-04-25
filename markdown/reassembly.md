@@ -56,7 +56,7 @@ Aside from minor damage to the external shell and the loss of a screw, the devic
 
 ##
 
-<br> Prev: ◄— [Product Analysis](../html/analysis.md) ◄—  
-Next: —► [Lessons Learned](../html/learned.md) —►
+<br> Prev: ◄— [Product Analysis](../markdown/analysis.md) ◄—  
+Next: —► [Lessons Learned](../markdown/learned.md) —►
 
 ##

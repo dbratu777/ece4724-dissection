@@ -18,7 +18,7 @@ The keyboard serves as the primary point of user interaction with the device; it
 
 ## Timing Diagrams
 
-The following timing diagrams were taken in moderately lit conditions; the battery was removed and the solar cell provided a supply voltage of ~1.3V DC. The periods and frequencies of the signals are not dependant on the  supply voltage; however, the amplitude, or peak-to-peak voltages, of the signals are dependant on the supply voltage (this is discussed further in the Electronic Characteristics section of the [Product Analysis](../html/analysis.md)).
+The following timing diagrams were taken in moderately lit conditions; the battery was removed and the solar cell provided a supply voltage of ~1.3V DC. The periods and frequencies of the signals are not dependant on the  supply voltage; however, the amplitude, or peak-to-peak voltages, of the signals are dependant on the supply voltage (this is discussed further in the Electronic Characteristics section of the [Product Analysis](../markdown/analysis.md)).
 
 <img src="../images/timing/1.jpg" width="360" height="240"
 alt="LCD Common Plane Timing Diagram"
@@ -86,7 +86,7 @@ To prevent these bounces from being interpreted as separate inputs, the microcon
 
 ##
 
-<br> Prev: ◄— [Photo Journal](../html/journal.md) ◄—  
-Next: —► [Product Analysis](../html/analysis.md) —►
+<br> Prev: ◄— [Photo Journal](../markdown/journal.md) ◄—  
+Next: —► [Product Analysis](../markdown/analysis.md) —►
 
 ##

@@ -3,12 +3,12 @@
 ## Table of Contents
 
 * [Introduction](#personal-introduction)
-* [Product Market](./html/market.md)
-* [Photo Journal](./html/journal.md)
-* [Product Operation](./html/operation.md)
-* [Product Analysis](./html/analysis.md)
-* [Reassembly](./html/reassembly.md)
-* [Lessons Learned](./html/learned.md)
+* [Product Market](./markdown/market.md)
+* [Photo Journal](./markdown/journal.md)
+* [Product Operation](./markdown/operation.md)
+* [Product Analysis](./markdown/analysis.md)
+* [Reassembly](./markdown/reassembly.md)
+* [Lessons Learned](./markdown/learned.md)
 
 ## Personal Introduction
 
@@ -46,6 +46,6 @@ A calculator was chosen for this dissection because calculators as a whole are r
 
 ##
 
-<br> Next: —► [Product Market](./html/market.md) —►
+<br> Next: —► [Product Market](./markdown/market.md) —►
 
 ##

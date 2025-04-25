@@ -144,8 +144,8 @@ The actual calculator retails direct from the manufacturer for $7.41 [\[13\]](#1
 
 ## 
  
-<br> Prev: ◄— [Product Operation](../html/operation.md) ◄—  
-Next: —► [Reassembly](../html/reassembly.md) —►
+<br> Prev: ◄— [Product Operation](../markdown/operation.md) ◄—  
+Next: —► [Reassembly](../markdown/reassembly.md) —►
 
 ##
 

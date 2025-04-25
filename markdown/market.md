@@ -171,7 +171,7 @@ While some of the other devices may provide unique features, none of them match 
 ##
 
 <br> Prev: ◄— [Introduction](../index.md) ◄—  
-Next: —►[Photo Journal](../html/journal.md) —►
+Next: —►[Photo Journal](../markdown/journal.md) —►
 
 ##
 
