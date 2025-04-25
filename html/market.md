@@ -10,6 +10,8 @@ Before covering the SL-100L Dual Leaf Pocket Calculator's history, it is only ri
 
 The following figures showcase CASIO's historical contributions to the calculator scene, which include one of the first calculators in CASIO's SL product line.
 
+<br>
+
 <img src="../images/market/1.jpg" width="" height="240"
 alt="14-A Calculator"
 title="14-A Calculator">
@@ -70,6 +72,8 @@ title="SL-100L Calculator">
 
 *Released September 2012* [\[7\]](#7-amazon-casior-sl-100l-solar-calculator-with-folding-hard-case--amazoncom)
 
+<br>
+
 ## Product Market
 
 ### Manufacturer's Suggested Retail Price (MSRP)
@@ -100,6 +104,8 @@ The SL-100L is manufactured and sold by CASIO.
 <br>
 
 As a mass-produced consumer electronic device, there are products similar to the SL-100L in both functionality and design, including knock-offs and off-brand versions, some of which are listed below.
+
+<br>
 
 #### Sharp EL-243SB
 
