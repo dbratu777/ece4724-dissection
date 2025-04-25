@@ -381,3 +381,27 @@ h2 {
   padding-bottom: 0.3em;
   margin-bottom: 0.5em;
 }
+
+strong {
+  font-weight: 800;
+  color: #d33682;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #586e75;
+}
+
+th,
+td {
+  border: 1px solid #586e75;
+  padding: 0.5em;
+  text-align: left;
+}
+
+th {
+  background-color: #073642;
+  color: #d33682;
+  text-align: center;
+}
