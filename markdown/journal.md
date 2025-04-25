@@ -1,6 +1,8 @@
 # Dissection Photo Journal
 
 <br> Home: &#x2302; [Introduction](../index.md) &#x2302;  
+Prev: ◄— [Product Market](../markdown/market.md) ◄—  
+Next: —► [Product Operation](../markdown/operation.md) —► 
 
 ##
 
@@ -244,7 +246,8 @@ title="CASIO SL-100L Shell Screws Alt. View">
 
 ##
 
-<br> Prev: ◄— [Product Market](../markdown/market.md) ◄—  
+<br> Home: &#x2302; [Introduction](../index.md) &#x2302;  
+Prev: ◄— [Product Market](../markdown/market.md) ◄—  
 Next: —► [Product Operation](../markdown/operation.md) —►
 
 ##

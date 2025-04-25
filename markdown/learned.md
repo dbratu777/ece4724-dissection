@@ -1,6 +1,7 @@
 # Lessons Learned
 
 <br> Home: &#x2302; [Introduction](../index.md) &#x2302;  
+Prev: ◄— [Reassembly](../markdown/reassembly.md) ◄—
 
 ##
 
@@ -31,6 +32,7 @@ Unrelated to the performing of the dissection itself, this report has been fully
 
 ##
 
-<br> Prev: ◄— [Reassembly](../markdown/reassembly.md) ◄—
+<br> Home: &#x2302; [Introduction](../index.md) &#x2302;  
+Prev: ◄— [Reassembly](../markdown/reassembly.md) ◄—
 
 ##

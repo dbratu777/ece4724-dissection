@@ -1,6 +1,8 @@
 # Post-Dissection Product Reassembly
 
 <br> Home: &#x2302; [Introduction](../index.md) &#x2302;  
+Prev: ◄— [Product Analysis](../markdown/analysis.md) ◄—  
+Next: —► [Lessons Learned](../markdown/learned.md) —►
 
 ##
 
@@ -56,7 +58,8 @@ Aside from minor damage to the external shell and the loss of a screw, the devic
 
 ##
 
-<br> Prev: ◄— [Product Analysis](../markdown/analysis.md) ◄—  
+<br> Home: &#x2302; [Introduction](../index.md) &#x2302;  
+Prev: ◄— [Product Analysis](../markdown/analysis.md) ◄—  
 Next: —► [Lessons Learned](../markdown/learned.md) —►
 
 ##

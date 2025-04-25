@@ -1,6 +1,9 @@
 # Product Analysis
 
 <br> Home: &#x2302; [Introduction](../index.md) &#x2302;  
+Prev: ◄— [Product Operation](../markdown/operation.md) ◄—  
+Next: —► [Reassembly](../markdown/reassembly.md) —►
+
 
 ##
 
@@ -144,7 +147,8 @@ The actual calculator retails direct from the manufacturer for $7.41 [\[13\]](#1
 
 ## 
  
-<br> Prev: ◄— [Product Operation](../markdown/operation.md) ◄—  
+<br> Home: &#x2302; [Introduction](../index.md) &#x2302;  
+Prev: ◄— [Product Operation](../markdown/operation.md) ◄—  
 Next: —► [Reassembly](../markdown/reassembly.md) —►
 
 ##

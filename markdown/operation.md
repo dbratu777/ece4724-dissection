@@ -1,6 +1,8 @@
 # Product Operation
 
 <br> Home: &#x2302; [Introduction](../index.md) &#x2302;  
+Prev: ◄— [Photo Journal](../markdown/journal.md) ◄—  
+Next: —► [Product Analysis](../markdown/analysis.md) —►
 
 ##
 
@@ -86,7 +88,8 @@ To prevent these bounces from being interpreted as separate inputs, the microcon
 
 ##
 
-<br> Prev: ◄— [Photo Journal](../markdown/journal.md) ◄—  
+<br> Home: &#x2302; [Introduction](../index.md) &#x2302;  
+Prev: ◄— [Photo Journal](../markdown/journal.md) ◄—  
 Next: —► [Product Analysis](../markdown/analysis.md) —►
 
 ##
