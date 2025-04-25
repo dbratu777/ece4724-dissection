@@ -16,25 +16,17 @@
 
 ## Product Introduction
 
-A CASIO SL-100L Dual Leaf Pocket Calculator, pictured below, was chosen as the subject of this dissection.
-
-<img src="./images/calculator/5.jpg" width="" height="240"
-alt="CASIO SL-100L"
-title="CASIO SL-100L">
-
-**Figure 1: CASIO SL-100L Dual Leaf Pocket Calculator**
-
-<br>
-
-The dissection proposal quad-chart created as a part of this effort is showcased in Figure 2 for archival purposes.
+A CASIO SL-100L Dual Leaf Pocket Calculator was chosen as the subject of this dissection. The dissection proposal quad chart created as a part of the selection effort is showcased in Figure 1 for archival purposes.
 
 <img src="./images/diagrams/quad-chart.png" width="" height="360"
-alt="Dissection Proposal Quad-Chart"
-title="Dissection Proposal Quad-Chart">
+alt="Dissection Proposal Quad Chart"
+title="Dissection Proposal Quad Chart">
 
-**Figure 2: Dissection Proposal Quad-Chart**
+**Figure 1: Dissection Proposal Quad Chart**
 
 <br>
+
+The following subsections cover much of the same information as the quad chart in additional detail.
 
 ### Background
 

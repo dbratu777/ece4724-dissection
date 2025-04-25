@@ -118,6 +118,8 @@ title="Sharp EL-243SB Calculator">
 
 **Figure 7: Sharp EL-243SB Pocket Calculator** [\[11\]](#11-sharp-8-digit-pocket-calculator-with-hinged-hard-cover-el-243sb-sharpcalculatorscom)
 
+<br>
+
 #### Canon LS-555H
 
 * MSRP: $12.99
@@ -135,6 +137,8 @@ title="Canon LS-555H Calculator">
 
 **Figure 8: Canon LS-555H Business Calculator** [\[12\]](#12-canon-ls-555h-handheld-display-calculator-usacanoncom)
 
+<br>
+
 #### Maizoon JS-732A
 
 * MSRP: $12.99
@@ -151,6 +155,8 @@ alt="Maizoon JS-732A Calculator"
 title="Maizoon JS-732A Calculator">
 
 **Figure 9: Maizoon JS-732A Folding Clamshell Calculator** [\[13\]](#13-amazon-maizoon-solar-dual-power-calculator-with-12-digit-display-large-screen-folding-flip-cover-big-button-portable-computing-tool-for-finance-business-office-and-school-amazoncom)
+
+<br>
 
 The Maizoon calculator is especially interesting as it is the only off-brand calculator shown in this section; this model of calculator is also listed online as the JOINUS JS-732A/CT-8855V, the Neel CT-8855V, and the CITHZEN CT-8855V. It has a very tactile appearance and claims to be powered off AAA batteries in addition to solar. It also boasts comparison operators (greater than and less than) as part of its specialty functionality.
 
