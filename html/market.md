@@ -82,7 +82,7 @@ The SL-100L Pocket Calculator is available for direct order from CASIO for **$7.
 
 ### Retail Outlets
 
-Like many other general function calculators, this device may be found at a variety of physical storefronts including supermarkets, office supply stores, and school supply chains. A few online listings have been provided as well.
+Like many other general function calculators, this device may be found at a variety of physical storefronts including supermarkets, office supply stores, and school supply chains. A few online listings have been provided as follows:
 
 * Amazon – $11.99 [\[7\]](#7-amazon-casior-sl-100l-solar-calculator-with-folding-hard-case--amazoncom)
 * Underwood Distributing – $9.95 [\[9\]](#9-underwood-distributing-casio-sl-100l-foldable-pocket-calculator-underwooddistributingcom)
@@ -164,7 +164,7 @@ title="Maizoon JS-732A Calculator">
 
 <br>
 
-The Maizoon calculator is especially interesting as it is the only off-brand calculator shown in this section; this model of calculator is also listed online as the JOINUS JS-732A/CT-8855V, the Neel CT-8855V, and the CITHZEN CT-8855V. It has a very tactile appearance and claims to be powered off AAA batteries in addition to solar. It also boasts comparison operators (greater than and less than) as part of its specialty functionality.
+The Maizoon calculator is especially interesting as it is the only off-brand calculator shown in this section; this model of calculator is also listed online as the JOINUS JS-732A/CT-8855V, the Neel CT-8855V, and the CITHZEN CT-8855V. It has a very tactile appearance and claims to be powered by AAA batteries in addition to solar. It also boasts comparison operators (greater than and less than) as part of its specialty functionality.
 
 While some of the other devices may provide unique features, none of them match the sleek form factor or tasteful appearance of CASIO's SL-100L; the [Canon LS-555H](#canon-ls-555h) comes close, but lacks the refinement required to justify its higher price point.
 

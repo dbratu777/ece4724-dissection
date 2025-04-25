@@ -1,4 +1,4 @@
-# MSU ECE-4724 Embedded Dissection Project 
+# Daniel Bratu – SL-100L Dissection – MSU ECE-4724 (S2025) 
 
 ## Table of Contents
 
@@ -12,7 +12,7 @@
 
 ## Personal Introduction
 
-
+This device tear-down and analysis was performed and recorded by Daniel Bratu (dab755), a senior Computer Engineering undergraduate, in Spring 2025. It was executed as a part of the semester-long dissection project in Mississippi State University's ECE-4724 Embedded Systems course under Dr. Vuk Marojevic.
 
 ## Product Introduction
 
@@ -30,7 +30,7 @@ The following subsections cover much of the same information as the quad chart i
 
 ### Background
 
-The SL-100L is a basic folding calculator with no scientific functions and limited memory operations; it is capable of standard mathematical operations using only a single binary or unary operator at a time. It has two power sources: a button cell battery and solar cells. Also, the calculator utilizes a 8-digit 7-segment LCD for the display.
+The SL-100L is a basic folding calculator with no scientific functions and limited memory operations; it is capable of standard mathematical operations using only a single binary or unary operator at a time. It has two power sources: a button cell battery and solar cells. The calculator utilizes a 8-digit 7-segment LCD for the display.
 
 ### Motivation
 

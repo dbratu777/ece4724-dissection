@@ -14,7 +14,7 @@ title="Calculator Block Diagram">
 
 <br>
 
-The battery and solar cells serve as primary power sources for the calculator; the keyboard and LCD are I/O devices with all logic required to read from and write to them handled by the microcontroller. The battery is portrayed as providing and receiving power, but it is important to note that the "received" power from the solar cell is actually blocked as discussed in next section.
+The battery and solar cells serve as primary power sources for the calculator; the keyboard and LCD are I/O devices with all logic required to read from and write to them handled by the microcontroller. The battery is portrayed as providing and receiving power, but it is important to note that the "received" power from the solar cell is actually blocked from the battery as discussed in next section.
 
 ## Circuit Schematics
 
@@ -90,7 +90,7 @@ title="LCD with Supply Voltage 3.0V (Tilted)">
 
 **Figure 6: LCD with Supply Voltage 3.0V (Tilted)**
 
-At a slight angle, the segments intended to be displayed are slightly darkened.
+At a slight angle, the segments intended to be displayed are slightly darkened by comparison.
 
 <br>
 
@@ -100,14 +100,14 @@ Regardless of the supply voltage level, each of the LCD pins transmits AC signal
 
 **80 mAh / 0.6 mA = 133.3 hours**
 
-The total battery usage is also offset by the solar cells when sufficient light is present, so the actual battery lifetime is likely significantly longer. These numbers can simply be used to represent the potential battery lifetime in absolute absence of light.
+The total battery usage is offset by the solar cells when sufficient light is present, so the actual battery lifetime is likely significantly longer than 83.3 – 133.3 hours. These results can simply be used to represent the potential battery range in an absolute absence of light.
 
 
 ## Bill of Materials
 
 The cost of the microcontroller is not directly discussed in this section as it is obscured and likely CASIO propriety; however, it is worth noting that the MCU is a chip-on-board application-specific integrated-chip (ASIC) obscured by black epoxy. This method of directly mounting the die to the board and coating it with epoxy is done to minimize manufacturing costs.
 
-Many of the components used in the device are now obsolete or are marked with manufacturer-specific codes, such as the diodes, LCD, and solar cells. As such, best-fit components have been selected, based on the measured ratings, appearance, and functionality of each component, to estimate the approximate bill of materials in the following sections. Where possible, bulk prices were used for components to replicate manufacturing practices.
+Many of the components used in the device are now obsolete or are marked with manufacturer-specific codes, such as the diodes, LCD, and solar cells. As such, best-fit components have been selected, based on the measured ratings, appearance, and functionality of each component, to estimate the approximate bill of materials in the following subsections. Where possible, bulk prices were used for components to replicate manufacturing practices.
 
 ### Electronic Components
 
@@ -134,11 +134,13 @@ Provided the above table, the approximate cost to produce a single device, purel
 
 PCB printing and construction-related costs were left out of the bill of materials for simplicity sake.  
 
-Thermoplastic elastomers (TPEs) were chosen as the base material for the keyboard because they are very similar in feel and appearance to silicone rubbers, but they are more cost effective and easier to manufacture [\[11\]](#11-avient-a-beginners-guide-to-tpe-avientcom).  
+The plastic shell of the calculator was determined to be made of high impact polystyrene (HIPS), which is commonly used for its ability to provide impact resistance, rigidity, and dimensional stability at a relatively low cost [\[11\]](#11-custompartnet-plastics-custompartnetcom).
+
+Thermoplastic elastomers (TPEs) were chosen as the base material for the keyboard because they are very similar in feel and appearance to silicone rubbers, but they are more cost effective and easier to manufacture [\[12\]](#12-avient-a-beginners-guide-to-tpe-avientcom).  
 
 **Total Cost: $5.96**
 
-The actual calculator retails direct from the manufacturer for $7.41 [\[12\]](#12-casio-sl-100l-pocket-calculator-casiocom). It can be assumed that CASIO isn't settling for a mere $1.45 in profit (not including manufacturing, packaging, and processing costs); instead, they likely have numerous manufacturing contracts and first-party suppliers to reduce costs far below what has been estimated.
+The actual calculator retails direct from the manufacturer for $7.41 [\[13\]](#13-casio-sl-100l-pocket-calculator-casiocom). It can be assumed that CASIO isn't settling for a mere $1.45 in profit (not including manufacturing, packaging, and processing costs); instead, they likely have numerous manufacturing contracts and first-party suppliers to reduce costs far below what has been estimated.
 
 ## 
  
@@ -189,11 +191,15 @@ https://www.apsx.com/thermoplastic-elastomer-tpe-black-pellets-2-lbs (accessed A
 
 https://www.digikey.com/en/products/detail/fix-supply/002MPF/21634439?s=N4IgjCBcoKwOxyqAxlAZgQwDYGcCmANCAPZQDa4ATAAwCcEAukQA4AuUIAyqwE4CWAOwDmIAL5E4MACxIQqSJlyES5ELQAccRi3aQuvQSPHgAbNXWz5i-EVKQKAZnUmpMaiCYg2Hbv2FjRUSA (accessed Apr. 21, 2025). 
 
-#### \[11\] Avient, “A Beginner’s Guide to TPE,” avient.com.
+#### \[11\] CUSTOMPART.NET, “Plastics,” custompartnet.com.
+
+https://www.custompartnet.com/wu/plastics (accessed Apr. 24, 2025).
+
+#### \[12\] Avient, “A Beginner’s Guide to TPE,” avient.com.
 
 https://www.avient.com/products/thermoplastic-elastomers/tpe-knowledge-center/beginners-guide#difference (accessed Apr. 21, 2025).
 
-#### \[12\] CASIO, “SL-100L Pocket Calculator,” casio.com.
+#### \[13\] CASIO, “SL-100L Pocket Calculator,” casio.com.
 
 https://www.casio.com/us/basic-calculators/product.SL-100L/ (accessed Apr. 21, 2025).
 
