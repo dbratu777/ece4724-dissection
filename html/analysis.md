@@ -12,9 +12,9 @@ title="Calculator Block Diagram">
 
 **Figure 1: Calculator Block Diagram**
 
-The battery and solar cells serve as primary power sources for the calculator; the keyboard and LCD are I/O devices with all logic required to read from and write to them handled by the microcontroller.
+<br>
 
-The battery is portrayed as providing and receiving power, but it is important to note that the "received" power from the solar cell is actually blocked as discussed in next section.
+The battery and solar cells serve as primary power sources for the calculator; the keyboard and LCD are I/O devices with all logic required to read from and write to them handled by the microcontroller. The battery is portrayed as providing and receiving power, but it is important to note that the "received" power from the solar cell is actually blocked as discussed in next section.
 
 ## Circuit Schematics
 
@@ -23,6 +23,8 @@ alt="Calculator Circuit Schematic"
 title="Calculator Circuit Schematic">
 
 **Figure 2: Calculator Circuit Schematic**
+
+<br>
 
 The two Schottky diodes, with low voltage dropouts of 0.15V, prevent the backflow of voltage from the solar cell across the MCU into the battery and vice versa. As such, the solar cells are not capable of recharging the battery and only extend its lifetime indirectly by providing an alternative power source to drive the microcontroller.
 
@@ -60,6 +62,8 @@ title="LCD with Supply Voltage 1.0V">
 
 Extremely faint, but the segments to display 1 are still just barely visible.
 
+<br>
+
 <img src="../images/analysis/2.jpg" width="" height="240"
 alt="LCD with Supply Voltage 1.5V"
 title="LCD with Supply Voltage 1.5V">
@@ -67,6 +71,8 @@ title="LCD with Supply Voltage 1.5V">
 **Figure 4: LCD with Supply Voltage 1.5V**
 
 Normal level of visibility.
+
+<br>
 
 <img src="../images/analysis/3.jpg" width="" height="240"
 alt="LCD with Supply Voltage 3.0V"
@@ -76,6 +82,8 @@ title="LCD with Supply Voltage 3.0V">
 
 Looking head on, it is nearly impossible to determine which segments were intended to be displayed.
 
+<br>
+
 <img src="../images/analysis/4.jpg" width="" height="240"
 alt="LCD with Supply Voltage 3.0V (Tilted)"
 title="LCD with Supply Voltage 3.0V (Tilted)">
@@ -83,6 +91,8 @@ title="LCD with Supply Voltage 3.0V (Tilted)">
 **Figure 6: LCD with Supply Voltage 3.0V (Tilted)**
 
 At a slight angle, the segments intended to be displayed are slightly darkened.
+
+<br>
 
 Regardless of the supply voltage level, each of the LCD pins transmits AC signals with a net DC voltage of 0V to prevent degradation of the liquid crystal material. The microcontroller (MCU) has no measurable load between the power source and its corresponding input pins. While there is likely some internal resistance, there is no practical way to determine the MCU’s total current draw. Therefore, the estimated battery lifetime provided below is based solely on the measured current draw of the LCD’s common plane pins, taken at the nominal supply voltage of 1.5V.
 
@@ -124,9 +134,7 @@ Provided the above table, the approximate cost to produce a single device, purel
 
 PCB printing and construction-related costs were left out of the bill of materials for simplicity sake.  
 
-Thermoplastic elastomers (TPEs) were chosen as the base material for the keyboard because they are very similar in feel and appearance to silicone rubbers, but they are more cost effective and easier to manufacture [\[11\]](#11-avient-a-beginners-guide-to-tpe-avientcom).
-
-<br>
+Thermoplastic elastomers (TPEs) were chosen as the base material for the keyboard because they are very similar in feel and appearance to silicone rubbers, but they are more cost effective and easier to manufacture [\[11\]](#11-avient-a-beginners-guide-to-tpe-avientcom).  
 
 **Total Cost: $5.96**
 

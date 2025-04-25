@@ -24,6 +24,18 @@ title="CASIO SL-100L">
 
 **Figure 1: CASIO SL-100L Dual Leaf Pocket Calculator**
 
+<br>
+
+The dissection proposal quad-chart created as a part of this effort is showcased in Figure 2 for archival purposes.
+
+<img src="./images/diagrams/quad-chart.png" width="" height="360"
+alt="Dissection Proposal Quad-Chart"
+title="Dissection Proposal Quad-Chart">
+
+**Figure 2: Dissection Proposal Quad-Chart**
+
+<br>
+
 ### Background
 
 The SL-100L is a basic folding calculator with no scientific functions and limited memory operations; it is capable of standard mathematical operations using only a single binary or unary operator at a time. It has two power sources: a button cell battery and solar cells. Also, the calculator utilizes a 8-digit 7-segment LCD for the display.

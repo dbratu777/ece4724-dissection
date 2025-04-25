@@ -18,6 +18,8 @@ title="14-A Calculator">
 
 *Released June 1957* [\[2\]](#2-casio-casio-history-casiocom)
 
+<br>
+
 <img src="../images/market/2.jpg" width="" height="240"
 alt="AL-1000 Calculator"
 title="AL-1000 Calculator">
@@ -25,6 +27,8 @@ title="AL-1000 Calculator">
 **Figure 2: AL-1000 – The World’s First Programmable Electronic Desktop Calculator**
 
 *Released October 1967* [\[2\]](#2-casio-casio-history-casiocom)
+
+<br>
 
 <img src="../images/market/3.jpg" width="" height="240"
 alt="CASIO Mini Calculator"
@@ -34,6 +38,8 @@ title="CASIO Mini Calculator">
 
 *Released August 1972* [\[2\]](#2-casio-casio-history-casiocom)
 
+<br>
+
 <img src="../images/market/4.jpg" width="" height="240"
 alt="Film Card SL-800 Calculator"
 title="Film Card SL-800 Calculator">
@@ -42,6 +48,8 @@ title="Film Card SL-800 Calculator">
 
 *Released November 1983* [\[2\]](#2-casio-casio-history-casiocom)
 
+<br>
+
 <img src="../images/market/5.jpg" width="" height="240"
 alt="FX-7000G Calculator"
 title="FX-7000G Calculator">
@@ -49,6 +57,8 @@ title="FX-7000G Calculator">
 **Figure 5: FX-7000G – The World's First Graphing Scientific Calculator**
 
 *Released August 1985* [\[2\]](#2-casio-casio-history-casiocom)
+
+<br>
 
 The Film Card SL-800 had a sleek and striking design, which gained it purchase to the Museum of Modern Art's archive [\[3\]](#3-moma-film-card-solar-calculator-momaorg). This calculator encompasses the same range of functionality as the SL-100L and originally sold for ¥5,900, or approximately $80.27 in today's money [\[4\]](#4-casio-calculator-collectors-casio-sl-800-d-casio-calculatorcom)[\[5\]](#5-pound-sterling-us-dollar--japanese-yen-historical-reference-rates-from-bank-of-england-for-1983-poundsterlinglivecom)[\[6\]](#6-us-inflation-calculator-inflation-calculator-usinflationcalculatorcom). Nearly 30 years after the release of the SL-800, the SL-100L became publicly available.
 
